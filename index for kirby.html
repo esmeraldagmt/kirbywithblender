@@ -9,10 +9,16 @@
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
 			<a-marker preset="hiro">
-				<a-sphere position="0 0 0" radius="0.6" color="#EF2D5E"></a-sphere>
-			</a-marker>
-        <a-entity camera></a-entity>
-        </a-scene>
+				<!--Modelo 3D cargado desde Github--->
+			</a-entity>
+				gltf-model-"https://github.com/esmeraldagmt/kirbywithblender/blob/7f95748b27ceec7417321bec7f074029f209fde9/kirby.glb"
+				scale-"0.4 0.4 0.4"
+				position-"0 0 0"
+				 rotation-""160 0 0"">
+        		</a-entity>
+		</a-marker>
+
+		<a-entity camera></a-entity>a-entity>
+	</a-scene>
     </body>
 </html>
-<a-animation attribute="rotation" to="360 0 0" dur="3000" easing="linear" repeat="indefinite" </a-animation>
